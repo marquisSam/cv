@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 21
+          node-version: 20
 
       - name: Build Angular app to prod
         working-directory: marquisSam.github.io
@@ -25,5 +25,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: marquisSam.github.io/dist/browser
+          base_branche: main
           branch: prod
           token: ${{ secrets.GH_TOKEN }}
