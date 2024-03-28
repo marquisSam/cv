@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs --base-href /marquisSam.github.io/browser/",
+    "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/marquisSam.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
