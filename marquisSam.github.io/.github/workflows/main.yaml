@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          path: ./
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -20,12 +18,12 @@ jobs:
           node-version: 19
 
       - name: Build Angular app to prod
-        working-directory: marquissam.github.io
+        working-directory: /marquissam.github.io
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: /marquisSam.github.io/
+          folder: /marquisSam.github.io/dist/
           branch: prod
           token: ${{ secrets.GH_TOKEN }}
