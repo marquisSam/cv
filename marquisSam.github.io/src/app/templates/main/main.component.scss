@@ -1,13 +1,17 @@
 :host {
   position: relative;
-  display: table;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 100%;
   height: 100%;
   gap: 20px;
 }
-.sidebar {
+#items-sidebar {
+  grid-column: 1;
+  grid-row: 1 / span 2;
 }
-.user-description {
+#item-description {
 }
-.work-experiences {
+#item-experiences {
 }
