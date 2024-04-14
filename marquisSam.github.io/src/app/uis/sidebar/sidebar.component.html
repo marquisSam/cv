@@ -1,1 +1,26 @@
-<p>sidebar works!</p>
+<section id="contact-details">
+  <h1>Samuel Marquis</h1>
+  <p>Software Engineer</p>
+  <!-- <p>samuel.marquis@outlook.com</p> -->
+  <p>+1 640 808 8888</p>
+</section>
+
+<section id="abilities">
+  <h2>Abilities</h2>
+  <ul>
+    @for (skill of coreSkills; track skill.label) {
+    {{
+      skill.label
+    }}
+    } @empty { Empty list of skills }
+  </ul>
+</section>
+
+<section id="transferable-skills">
+  <h2>Transferable Skills</h2>
+  <ul>
+    <li>Java</li>
+    <li>Python</li>
+    <li>JavaScript</li>
+  </ul>
+</section>

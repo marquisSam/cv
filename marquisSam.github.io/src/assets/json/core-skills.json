@@ -1,0 +1,38 @@
+[
+  {
+    "label": "JavaScript, Typescript",
+    "imgUrl": "asset/imgs/core-skills/js.png"
+  },
+  {
+    "label": "Css, Scss",
+    "imgUrl": "asset/imgs/core-skills/css.png"
+  },
+  {
+    "label": "Html",
+    "imgUrl": "asset/imgs/core-skills/html.png"
+  },
+  {
+    "label": "Node js",
+    "imgUrl": "asset/imgs/core-skills/node-js.png"
+  },
+  {
+    "label": "Angular",
+    "imgUrl": "asset/imgs/core-skills/angular.png"
+  },
+  {
+    "label": "Git",
+    "imgUrl": "asset/imgs/core-skills/git.png"
+  },
+  {
+    "label": "JSON",
+    "imgUrl": "asset/imgs/core-skills/json.png"
+  },
+  {
+    "label": "Web Applications",
+    "imgUrl": "asset/imgs/core-skills/webapp.png"
+  },
+  {
+    "label": "Responsive",
+    "imgUrl": "asset/imgs/core-skills/responsive-design.png"
+  }
+]
