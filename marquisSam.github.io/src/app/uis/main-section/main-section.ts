@@ -2,11 +2,11 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'cv-work-experiences',
+  selector: 'cv-main-section',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './work-experiences.component.html',
-  styleUrl: './work-experiences.component.scss',
+  templateUrl: './main-section.html',
+  styleUrl: './main-section.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class WorkExperiencesComponent {}
+export class MainSectionComponent {}
