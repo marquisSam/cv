@@ -1,3 +1,35 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--hue-dark-grey);
+  color: var(--hue-txt-clear, aliceBlue);
+  & a,
+  & li {
+    color: var(--hue-txt-clear, aliceBlue);
+  }
+  & a:visited,
+  & a:hover,
+  & a:focus {
+    color: var(--hue-txt-clear, aliceBlue);
+  }
+  & li {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  /* Tablet */
+  :host {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop */
+  :host {
+    justify-content: space-around;
+    padding: 30px;
+  }
 }

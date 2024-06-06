@@ -13,27 +13,6 @@
     "block-stransferable-skill";
 }
 
-.img-icon {
-  position: absolute;
-  height: auto;
-  width: 17px;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-[id*="container-"] {
-  padding: var(--container-padding, 10px);
-}
-[id*="container-"]:last-of-type {
-  padding-bottom: 0;
-}
-[id*="block-"] {
-  margin-bottom: 15px;
-}
-[id*="block-"]:last-of-type {
-  margin-bottom: 0;
-}
-
 #block-objective {
   margin-bottom: 0;
 }
@@ -50,21 +29,4 @@
   grid-area: block-soft-skill;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.dark-background {
-  background-color: var(--hue-dark-grey);
-  color: var(--hue-txt-clear, aliceBlue);
-  & a,
-  & li {
-    color: var(--hue-txt-clear, aliceBlue);
-  }
-  & a:visited,
-  & a:hover,
-  & a:focus {
-    color: var(--hue-txt-clear, aliceBlue);
-  }
-  & li {
-    font-size: 12px;
-  }
 }
