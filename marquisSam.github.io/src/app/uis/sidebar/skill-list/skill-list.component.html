@@ -6,8 +6,8 @@
     'icon-list': listStyle === 'icon'
   }"
 >
-  @for (skill of list; track skill.name) {
-  <li>
+  @for (skill of list; track skill.name ; let i = $index) {
+  <li tabindex="0" [attr.aria-label]="title + ' ' + i + ' :' + skill.name">
     @if (listStyle === 'icon') {
     <img class="list-img-icon" [src]="skill.image" [alt]="skill.alt" />
     }
