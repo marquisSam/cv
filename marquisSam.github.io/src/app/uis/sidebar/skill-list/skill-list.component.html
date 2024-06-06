@@ -1,0 +1,17 @@
+<h3>{{ title }}</h3>
+<ul
+  [ngClass]="{
+    'multi-column': multiColumn,
+    'basic-list': listStyle === 'basic',
+    'icon-list': listStyle === 'icon'
+  }"
+>
+  @for (skill of list; track skill.name) {
+  <li>
+    @if (listStyle === 'icon') {
+    <img class="list-img-icon" [src]="skill.image" [alt]="skill.alt" />
+    }
+    {{ skill.name }}
+  </li>
+  }
+</ul>

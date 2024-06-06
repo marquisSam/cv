@@ -1,25 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @use "./styles/index" as *;
-body {
-  margin: 0;
-  padding: 0;
-}
+
 html,
 body,
 p {
+  & > * {
+    box-sizing: border-box;
+  }
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Fira Sans", sans-serif;
   color: var(--hue-dark-grey-font);
-  font-size: 13px;
-  line-height: 1.25em;
 }
-p {
-  margin-bottom: 0.65em;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
-}
+
 hr {
   opacity: 0.3;
   margin: 25px 0;
@@ -28,78 +21,9 @@ hr {
 /* header */
 h1,
 h2,
-h3 {
-  margin-top: 0;
-}
-h1 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
-}
-h2 {
-  margin-bottom: 20px;
-  font-size: 1.1em;
-  font-family: "Raleway", sans-serif;
-}
-h3 {
-  text-transform: uppercase;
-  /* font-weight: 500; */
-  margin-bottom: 10px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-}
-h4 {
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
-  margin-bottom: 5px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-h5 {
-  margin: 5px 0;
-}
-/* list */
-ul,
-ol {
-  padding-left: 15px;
-  margin: 0;
-}
-
-li {
-  font-family: "Fira Sans Condensed", sans-serif;
-  position: relative;
-  margin: 10px 0;
-}
-
-ol.icon-list,
-ul.icon-list {
-  list-style-type: none;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-.icon-list li {
-  margin: 0 0 10px 0;
-  padding-left: 25px;
-  &:hover {
-    color: var(--hue-txt-clear, aliceBlue);
-  }
-}
-.img-icon {
-  position: absolute;
-  height: auto;
-  width: 17px;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-[id*="container-"] {
-  padding: var(--container-padding, 10px);
-}
-
-[id*="block-"] {
-  margin-bottom: 15px;
-}
-[id*="block-"]:last-of-type {
-  margin-bottom: 0;
 }

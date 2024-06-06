@@ -1,32 +1,17 @@
 :host {
   display: flex;
-  flex: 1;
   flex-direction: column;
-  background-color: aqua;
-
-  grid-area: sidebar-section;
-  background-color: var(--hue-light-grey);
-  grid-template-areas:
-    "block-info"
-    "block-hard-skill"
-    "block-soft-skill"
-    "block-stransferable-skill";
+  gap: 30px;
 }
 
-#block-objective {
-  margin-bottom: 0;
+section#quick-info {
+  padding: 30px var(--container-padding);
+  background-color: var(--hue-dark-grey);
 }
 
-#container-info {
-  grid-area: container-info;
-  word-break: break-word;
-}
-
-#block-hard-skill {
-  grid-area: container-hard-skill;
-}
-#block-soft-skill ul {
-  grid-area: block-soft-skill;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+section {
+  padding: 0 var(--container-padding) 0 var(--container-padding);
+  &:last-of-type {
+    padding-bottom: var(--container-padding);
+  }
 }

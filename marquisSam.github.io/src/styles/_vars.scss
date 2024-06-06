@@ -3,10 +3,20 @@
   --hue-dark-grey: rgba(0, 0, 0, 0.8);
   --hue-dark-grey-font: #353535;
   --hue-light-grey: rgba(0, 0, 0, 0.05);
-  --container-padding: 20px;
-  --sidebar-w: 250px;
 
-  //tablet and desktop width
-  --tablet-w: 768px;
-  --desktop-w: 1024px;
+  //padding and margins
+  --container-padding: 15px;
+}
+@media (min-width: 768px) {
+  //padding and margins
+  :root {
+    --container-padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  //padding and margins
+  :root {
+    --container-padding: 20px;
+  }
 }

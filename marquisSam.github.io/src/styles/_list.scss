@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+ul,
+ol {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  &.basic-list {
+    margin: 0;
+    padding-left: 15px;
+  }
+  &.icon-list {
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    gap: 10px;
+
+    &.multi-column {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    li {
+      position: relative;
+      padding-left: 25px;
+
+      .list-img-icon {
+        position: absolute;
+        height: auto;
+        width: 17px;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
