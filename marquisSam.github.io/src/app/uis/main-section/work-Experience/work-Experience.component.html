@@ -1,1 +1,21 @@
-<p>work-Experience works!</p>,
+<h3>Expériences Professionnelles</h3>
+<div *ngFor="let workExperience of workExperiences">
+  <h5>responsabilités</h5>
+  <ul class="li-pushed">
+    @for(workExperience of workExperiences ; track workExperience){
+    <div class="company">
+      <p>{{ workExperience.company }}</p>
+      <p>{{ workExperience.title }}</p>
+      <p>
+        {{ workExperience.startDate | date }} -
+        {{ workExperience.endDate | date }}
+      </p>
+    </div>
+    <div class="reference">
+      <p>{{ workExperience.reference.name }}</p>
+      <p>{{ workExperience.reference.email }}</p>
+      <p>{{ workExperience.reference.phone }}</p>
+    </div>
+    }
+  </ul>
+</div>

@@ -1,3 +1,13 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+p {
+  padding-left: 5px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }

@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { CvWorkExperience } from '../../../data/model';
 
 @Component({
   selector: 'cv-work-experience',
@@ -9,4 +10,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './work-Experience.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class WorkExperienceComponent {}
+export class WorkExperienceComponent {
+  @Input() workExperiences: CvWorkExperience[] = [];
+}

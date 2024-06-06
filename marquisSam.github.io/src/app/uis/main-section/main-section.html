@@ -1,3 +1,8 @@
-<cv-personal-intro></cv-personal-intro>
-<cv-career-objective></cv-career-objective>
-<cv-work-experience></cv-work-experience>
+<section id="section-personal-intro">
+  <cv-personal-intro></cv-personal-intro>
+</section>
+<section id="section-work-experience">
+  <cv-work-experience
+    [workExperiences]="workExperiences$ | async"
+  ></cv-work-experience>
+</section>
