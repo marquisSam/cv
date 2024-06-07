@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  min-height: 160px;
   color: var(--hue-txt-clear, aliceBlue);
   & a,
   & li {
@@ -19,7 +19,6 @@
 }
 
 h1 {
-  margin-bottom: 6px;
   white-space: nowrap;
 }
 h2 {
@@ -27,8 +26,11 @@ h2 {
 }
 ul {
   position: relative;
-  top: 5px;
+  top: 9px;
   left: 25px;
+  li {
+    padding-left: 29px;
+  }
 }
 
 .title-container-desktop {
@@ -36,16 +38,20 @@ ul {
 }
 .title-container-mobile {
   display: flex;
-
+  h2 {
+    position: relative;
+    right: 8px;
+  }
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  transform: translateX(-69%) translateY(87%) rotate(-90deg);
+  transform: translateX(-71%) translateY(87%) rotate(-90deg);
 }
 
 @media (min-width: 768px) {
   /* Tablet */
   :host {
+    min-height: initial;
     display: flex;
     align-items: flex-start;
     flex-direction: column;

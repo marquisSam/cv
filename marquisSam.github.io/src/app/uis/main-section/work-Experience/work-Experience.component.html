@@ -1,21 +1,51 @@
 <h3>Expériences Professionnelles</h3>
-<div *ngFor="let workExperience of workExperiences">
-  <h5>responsabilités</h5>
-  <ul class="li-pushed">
-    @for(workExperience of workExperiences ; track workExperience){
-    <div class="company">
-      <p>{{ workExperience.company }}</p>
-      <p>{{ workExperience.title }}</p>
-      <p>
-        {{ workExperience.startDate | date }} -
-        {{ workExperience.endDate | date }}
-      </p>
+<section id="work-experience">
+  @for(workExperience of workExperiences ; track workExperience){
+  <div class="wrapper-work-experiences">
+    <div class="wrapper-job-description">
+      <div class="wrapper-experience">
+        <span class="company-name">{{ workExperience.company }}</span>
+        <span class="separator">|</span>
+        <span class="company-title"> {{ workExperience.title }} </span>
+        <span class="separator">|</span>
+        <span class="company-date">
+          {{ workExperience.startDate | date }} -
+          {{ workExperience.endDate | date }}
+        </span>
+      </div>
+
+      @for(reference of workExperience.references ; track reference){
+
+      <div class="wrapper-reference">
+        <p>
+          {{ reference.name }}
+          <span *ngIf="reference.function">, {{ reference.function }}</span>
+        </p>
+        <a [href]="'tel:' + reference.phone">{{ reference.phone }}</a>
+        <a [href]="'mailto:' + reference.email">{{ reference.email }}</a>
+      </div>
+
+      }
     </div>
-    <div class="reference">
-      <p>{{ workExperience.reference.name }}</p>
-      <p>{{ workExperience.reference.email }}</p>
-      <p>{{ workExperience.reference.phone }}</p>
+
+    <div class="wrapper-responsabilities">
+      <h5>responsabilités</h5>
+      <ul class="basic-list">
+        <li *ngFor="let responsability of workExperience.responsibilities">
+          {{ responsability }}
+        </li>
+      </ul>
     </div>
-    }
-  </ul>
-</div>
+
+    <div class="wrapper-achievements">
+      <h5>Défis réalisés</h5>
+
+      <ul class="basic-list">
+        <li *ngFor="let achievement of workExperience.achievements">
+          {{ achievement }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  }
+</section>

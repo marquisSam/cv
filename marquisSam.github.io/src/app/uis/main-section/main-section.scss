@@ -3,5 +3,11 @@
   flex-direction: column;
   flex: 1;
   padding: var(--container-padding);
-  gap: var(--container-padding);
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  :host {
+    padding-top: var(--container-padding);
+  }
 }

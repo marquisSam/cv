@@ -1,6 +1,9 @@
 <section id="section-personal-intro">
   <cv-personal-intro></cv-personal-intro>
 </section>
+<hr />
 <section id="section-work-experience">
-  <cv-work-experience></cv-work-experience>
+  <cv-work-experience
+    [workExperiences]="workExperiences$ | async"
+  ></cv-work-experience>
 </section>

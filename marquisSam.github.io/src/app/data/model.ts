@@ -11,12 +11,10 @@ export interface CvWorkExperience {
   location: string;
   startDate: Date;
   endDate: Date;
-  reference: CvReference;
-  description: {
-    responsibilities: string[];
-    achievements: string[];
-    demo?: Demo[];
-  };
+  references: CvReference[];
+  responsibilities: string[];
+  achievements: string[];
+  demo?: Demo[];
 }
 export interface Demo {
   title: string;
