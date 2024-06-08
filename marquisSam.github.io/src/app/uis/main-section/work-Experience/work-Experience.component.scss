@@ -13,7 +13,7 @@ section#work-experience {
   padding-left: var(--text-indent);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 }
 .wrapper-work-experiences {
   display: flex;
@@ -21,36 +21,56 @@ section#work-experience {
   gap: 1.3rem;
 }
 .wrapper-experience {
+  & > span {
+    padding: 0 1rem;
+    &:last-of-type {
+      padding-right: 0;
+    }
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
   display: flex;
   align-items: baseline;
-  margin-bottom: 0.3rem;
-  gap: 1rem;
+  margin-bottom: 1rem;
+  // gap: 1rem;
   font-weight: 600;
   .company-name {
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
     font-family: var(--font-secondary);
-  }
-
-  .company-title {
-    font-size: 1rem;
   }
 
   .company-date {
     font-size: 1rem;
   }
 }
+.company-title {
+  border-right: 1px solid var(--hue-dark-grey-font);
+  border-left: 1px solid var(--hue-dark-grey-font);
+  font-size: 1rem;
+}
 .wrapper-reference {
   align-items: baseline;
   gap: 1rem;
   display: flex;
 }
-
+section#references {
+  padding-left: var(--text-indent);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 .wrapper-achievements,
 .wrapper-responsabilities {
   padding-left: var(--text-indent);
 }
 
 @media (max-width: 370px) {
+  .company-title {
+    border-right: none;
+    border-left: none;
+  }
   .wrapper-experience,
   .wrapper-reference {
     flex-direction: column;
@@ -64,5 +84,12 @@ section#work-experience {
   .company-title,
   .company-date {
     font-size: 0.9rem;
+  }
+}
+
+//tablet
+@media (max-width: 768px) {
+  .company-name {
+    margin-bottom: 0;
   }
 }

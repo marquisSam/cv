@@ -19,6 +19,7 @@ export interface CvWorkExperience {
 export interface Demo {
   title: string;
   link: string;
+  linkLabel: string;
 }
 export interface CvReference {
   name: string;

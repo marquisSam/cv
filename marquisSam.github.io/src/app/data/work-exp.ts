@@ -1,7 +1,7 @@
 import { CvWorkExperience } from './model';
 
 const bluerushExperience: CvWorkExperience = {
-  title: 'Développeur Web',
+  title: 'Développeur Front-end',
   company: 'Bluerush',
   location: 'Montreal, QC',
   startDate: new Date('2016-01-01'),
@@ -31,14 +31,52 @@ const bluerushExperience: CvWorkExperience = {
   ],
   demo: [
     {
-      title: 'Page Iframe video personalisée',
+      title: 'Page Iframe video personnalisée',
+      linkLabel: 'Voir la page',
       link: 'https://individeo.com/individeo/preview/vfSfdYQSRGRMVRXmmw-651/?lang=fr-CA&ivuci=25',
     },
     {
-      title: 'Page test pour le produit de vidéo personalisé.',
+      title: 'Page test pour le produit de vidéo personnalisé.',
+      linkLabel: 'Voir la page',
       link: 'https://support.bluerush.com/academy/how-can-i-test-my-video-1',
     },
   ],
 };
 
-export const workExperiences: CvWorkExperience[] = [bluerushExperience];
+const regiscoExperience: CvWorkExperience = {
+  title: 'Développeur Front-end',
+  company: 'Regisco',
+  location: 'Montreal, QC',
+  startDate: new Date('2023-08-01'),
+  endDate: new Date('2024-02-29'),
+  references: [
+    {
+      name: 'Philippe Desormeaux',
+      function: 'CTO',
+      email: '', // Email not provided
+      phone: 'xxx-xxx-xxxx',
+    },
+    {
+      name: 'Jean-Philippe Lemieux',
+      function: 'CTO',
+      email: '', // Email not provided
+      phone: 'xxx-xxx-xxxx',
+    },
+  ],
+  responsibilities: [
+    'Maintenir la plateforme de la société.',
+    'Développer des fonctionnalités pour la plateforme.',
+    'Réaliser des tâches complexes dans des temps limités.',
+  ],
+  achievements: [
+    'Intégrer un design complexe de A à Z.',
+    'Créer une librairie de Inputs personnalisées.',
+    'Créer une librairie de composants personnalisées.',
+  ],
+  demo: [],
+};
+
+export const workExperiences: CvWorkExperience[] = [
+  regiscoExperience,
+  bluerushExperience,
+];

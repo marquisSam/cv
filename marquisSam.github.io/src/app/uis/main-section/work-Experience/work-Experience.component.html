@@ -5,27 +5,28 @@
     <div class="wrapper-job-description">
       <div class="wrapper-experience">
         <span class="company-name">{{ workExperience.company }}</span>
-        <span class="separator">|</span>
         <span class="company-title"> {{ workExperience.title }} </span>
-        <span class="separator">|</span>
         <span class="company-date">
           {{ workExperience.startDate | date }} -
           {{ workExperience.endDate | date }}
         </span>
       </div>
 
-      @for(reference of workExperience.references ; track reference){
-
-      <div class="wrapper-reference">
-        <p>
-          {{ reference.name }}
-          <span *ngIf="reference.function">, {{ reference.function }}</span>
-        </p>
-        <a [href]="'tel:' + reference.phone">{{ reference.phone }}</a>
-        <a [href]="'mailto:' + reference.email">{{ reference.email }}</a>
-      </div>
-
-      }
+      <section id="references">
+        @for(reference of workExperience.references ; track reference){
+        <div
+          class="wrapper-reference"
+          [id]="'references_' + workExperience.company"
+        >
+          <p>
+            - {{ reference.name }}
+            <span *ngIf="reference.function">, {{ reference.function }}</span>
+          </p>
+          <a [href]="'tel:' + reference.phone">{{ reference.phone }}</a>
+          <a [href]="'mailto:' + reference.email">{{ reference.email }}</a>
+        </div>
+        }
+      </section>
     </div>
 
     <div class="wrapper-responsabilities">
