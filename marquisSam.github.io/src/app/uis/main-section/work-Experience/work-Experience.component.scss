@@ -18,13 +18,14 @@ section#work-experience {
 .wrapper-work-experiences {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 .wrapper-experience {
   display: flex;
   align-items: baseline;
   margin-bottom: 0.3rem;
   gap: 1rem;
+  font-weight: 600;
   .company-name {
     font-size: 1.5rem;
     font-family: var(--font-secondary);
