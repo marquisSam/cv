@@ -18,11 +18,9 @@
           class="wrapper-reference"
           [id]="'references_' + workExperience.company"
         >
-          <p>
-            - {{ reference.name }}
-            <span *ngIf="reference.function">, {{ reference.function }}</span>
-          </p>
-          <a [href]="'tel:' + reference.phone">{{ reference.phone }}</a>
+          <span class="reference-name">- {{ reference.name }},</span>
+          <span *ngIf="reference.function">{{ reference.function }},</span>
+          <a [href]="'tel:' + reference.phone">{{ reference.phone }},</a>
           <a [href]="'mailto:' + reference.email">{{ reference.email }}</a>
         </div>
         }

@@ -52,15 +52,15 @@ const regiscoExperience: CvWorkExperience = {
   references: [
     {
       name: 'Philippe Desormeaux',
-      function: 'CTO',
-      email: '', // Email not provided
-      phone: 'xxx-xxx-xxxx',
+      function: 'Cofondateur et Product Owner',
+      email: 'philippe@regisco.ca',
+      phone: '418-264-1676',
     },
     {
       name: 'Jean-Philippe Lemieux',
       function: 'CTO',
-      email: '', // Email not provided
-      phone: 'xxx-xxx-xxxx',
+      email: 'jp@xtenc.io',
+      phone: '514-952-8485',
     },
   ],
   responsibilities: [
