@@ -5,6 +5,8 @@ import { MainTemplateComponent } from './templates/main-template/main-template.c
 @Component({
   selector: 'app-root',
   standalone: true,
+  //inject http client
+
   imports: [RouterOutlet, MainTemplateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

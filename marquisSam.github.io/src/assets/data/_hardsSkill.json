@@ -1,0 +1,56 @@
+[
+  {
+    "name": "JavaScript, Typescript",
+    "image": "assets/imgs/h-skill/js.png",
+    "alt": "JavaScript, Typescript",
+    "description": "Langages de programmation essentiels pour le développement web et la création d'applications interactives."
+  },
+  {
+    "name": "Css, Scss",
+    "image": "assets/imgs/h-skill/css-3.png",
+    "alt": "Css, Scss",
+    "description": "Technologies de style pour le design et la mise en forme des pages web, permettant des designs adaptatifs et dynamiques."
+  },
+  {
+    "name": "Html",
+    "image": "assets/imgs/h-skill/html-5-logotype.png",
+    "alt": "Html",
+    "description": "Langage de balisage standard utilisé pour créer et structurer des pages web."
+  },
+  {
+    "name": "Node.js",
+    "image": "assets/imgs/h-skill/node-js.png",
+    "alt": "Node js",
+    "description": "Plateforme côté serveur basée sur le moteur JavaScript V8 de Chrome, utilisée pour construire des applications réseau rapides."
+  },
+  {
+    "name": "Angular",
+    "image": "assets/imgs/h-skill/Angular.png",
+    "alt": "Angular",
+    "description": "Framework structuré pour les applications web dynamiques, permettant de créer des interfaces utilisateur riches et interactives."
+  },
+  {
+    "name": "Git",
+    "image": "assets/imgs/h-skill/git.png",
+    "alt": "Git",
+    "description": "Système de contrôle de version décentralisé pour gérer le code source des projets de développement logiciel."
+  },
+  {
+    "name": "JSON",
+    "image": "assets/imgs/h-skill/json-file.png",
+    "alt": "JSON",
+    "description": "Format léger d'échange de données, facile à lire et à écrire pour les humains, et facile à analyser et à générer pour les machines."
+  },
+  {
+    "name": "Web Applications",
+    "image": "assets/imgs/h-skill/webapp.png",
+    "alt": "Web Applications",
+    "description": "Applications exécutées sur un serveur web, accessibles via un réseau comme Internet ou une intranet."
+  },
+  {
+    "name": "Responsive Design",
+    "image": "assets/imgs/h-skill/responsive-design.png",
+    "alt": "Responsive",
+    "description": "Approche de conception web qui vise à créer des sites offrant une expérience de visualisation optimale sur une large gamme d'appareils."
+  }
+]

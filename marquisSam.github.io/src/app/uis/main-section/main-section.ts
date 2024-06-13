@@ -3,8 +3,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { PersonalIntroComponent } from './personal-intro/personal-intro.component';
 import { WorkExperienceComponent } from './work-Experience/work-Experience.component';
 import { Observable, of, startWith } from 'rxjs';
-import { workExperiences } from '../../data/work-exp';
-import { CvWorkExperience } from '../../data/model';
+import { workExperiences } from '../../../assets/data/work-exp';
+import { CvWorkExperience } from '../../model';
 
 @Component({
   selector: 'cv-main-section',

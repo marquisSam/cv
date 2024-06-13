@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CvWorkExperience } from '../../../data/model';
+import { CvWorkExperience } from '../../../model';
 import { SkillListComponent } from '../../sidebar/skill-list/skill-list.component';
 
 @Component({

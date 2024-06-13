@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { QuickInfoComponent } from './quick-info/quick-info.component';
 import { SkillListComponent } from './skill-list/skill-list.component';
-import { CvSkill } from '../../data/model';
+import { CvSkill } from '../../model';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'cv-sidebar',
@@ -12,7 +13,16 @@ import { CvSkill } from '../../data/model';
   styleUrls: ['./sidebar.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SidebarComponent {
+export class SidebarComponent implements OnInit {
+  constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    //Add 'implements OnInit' to the class.
+    this.http.get('./assets/data/_hardsSkill.json').subscribe((data) => {
+      console.log(data);
+    });
+  }
   hardSkills: CvSkill[] = [
     {
       name: 'JavaScript, Typescript',
