@@ -1,7 +1,6 @@
-import { workExperiences } from '../.assets/data/work-exp';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { filter, map, Observable, startWith, tap } from 'rxjs';
+import { filter, map, Observable } from 'rxjs';
 import { CvSkill, CvWorkExperience } from './model';
 
 @Injectable({
