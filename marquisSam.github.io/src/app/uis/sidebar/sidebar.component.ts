@@ -22,4 +22,5 @@ export class SidebarComponent {
   softSkill: Observable<CvSkill[]> = this.dataService.getSoftSkills;
   transferableAsset: Observable<CvSkill[]> =
     this.dataService.getTransferableAssets;
+  wouldLearn: Observable<CvSkill[]> = this.dataService.getWouldLearn;
 }

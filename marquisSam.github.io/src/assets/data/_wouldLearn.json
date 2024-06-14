@@ -1,74 +1,26 @@
 [
   {
-    "name": "Python",
-    "image": "assets/imgs/s-skill/python.png",
-    "alt": "Python",
-    "description": "Langage de programmation polyvalent, idéal pour le scripting et le développement rapide d'applications."
+    "name": "Vue.js",
+    "image": "assets/imgs/stack-icons/Vue.png",
+    "alt": "Vue.js",
+    "description": "Vue.js is a JavaScript framework for building user interfaces. It is a progressive framework that can be used to build single-page applications and user interfaces. Vue.js is a popular framework that is used by many developers to build web applications. Vue.js is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications."
+  },
+
+  {
+    "name": "MySQL",
+    "image": "assets/imgs/stack-icons/mysql.png",
+    "alt": "MySQL"
+  },
+  {
+    "name": "NestJS",
+    "image": "assets/imgs/stack-icons/nest.png",
+    "alt": "nestjs",
+    "description": "NestJS est un framework Node.js progressif pour construire des applications efficaces et évolutives sur le serveur. Il utilise des concepts modernes de programmation orientée objet, entièrement compatible avec TypeScript et bénéficie d'une architecture modulaire."
   },
   {
     "name": "Rest api",
     "image": "assets/imgs/s-skill/api.png",
     "alt": "Rest",
     "description": "Protocole standard pour la conception d'interfaces de programmation d'applications web."
-  },
-  {
-    "name": "React",
-    "image": "assets/imgs/s-skill/React.png",
-    "alt": "React",
-    "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur interactives et dynamiques."
-  },
-  {
-    "name": "SEO",
-    "image": "assets/imgs/s-skill/seo.png",
-    "alt": "SEO",
-    "description": "Techniques et stratégies pour améliorer la visibilité d'un site web dans les résultats des moteurs de recherche."
-  },
-  {
-    "name": "WCAG",
-    "image": "assets/imgs/s-skill/accessability.png",
-    "alt": "WCAG",
-    "description": "Directives pour rendre le contenu web plus accessible aux personnes handicapées."
-  },
-  {
-    "name": "CMS",
-    "image": "assets/imgs/s-skill/cms.png",
-    "alt": "CMS",
-    "description": "Systèmes de gestion de contenu utilisés pour créer et gérer des sites web numériques."
-  },
-  {
-    "name": "Jasmine",
-    "image": "assets/imgs/s-skill/jasmine.png",
-    "alt": "Jasmine",
-    "description": "Cadre de test pour JavaScript, utilisé pour tester la logique et le comportement du code."
-  },
-  {
-    "name": "Karma",
-    "image": "assets/imgs/s-skill/karma.png",
-    "alt": "Karma",
-    "description": "Outil de test automatisé pour les applications JavaScript, facilitant les tests sur plusieurs navigateurs."
-  },
-  {
-    "name": "NPM",
-    "image": "assets/imgs/s-skill/npm.png",
-    "alt": "NPM",
-    "description": "Gestionnaire de paquets pour JavaScript, permettant de partager et d'utiliser des modules de code."
-  },
-  {
-    "name": "Jira",
-    "image": "assets/imgs/s-skill/jira.png",
-    "alt": "Jira",
-    "description": "Outil de gestion de projets et de suivi des bugs, utilisé pour améliorer la coordination des équipes de développement."
-  },
-  {
-    "name": "RXJS",
-    "image": "assets/imgs/s-skill/rxjs.png",
-    "alt": "RXJS",
-    "description": "Bibliothèque pour la programmation réactive utilisant des observables pour gérer les événements et les données asynchrones."
-  },
-  {
-    "name": "NGRX",
-    "image": "assets/imgs/s-skill/ngrx-logo.png",
-    "alt": "ngrx",
-    "description": "Bibliothèque de gestion d'état inspirée par Redux pour les applications Angular, facilitant la gestion des états globaux."
   }
 ]
