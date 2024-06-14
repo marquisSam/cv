@@ -5,12 +5,7 @@
     "alt": "Python",
     "description": "Langage de programmation polyvalent, idéal pour le scripting et le développement rapide d'applications."
   },
-  {
-    "name": "Rest api",
-    "image": "assets/imgs/s-skill/api.png",
-    "alt": "Rest",
-    "description": "Protocole standard pour la conception d'interfaces de programmation d'applications web."
-  },
+
   {
     "name": "React",
     "image": "assets/imgs/s-skill/React.png",
@@ -18,10 +13,28 @@
     "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur interactives et dynamiques."
   },
   {
+    "name": "Node.js",
+    "image": "assets/imgs/h-skill/node-js.png",
+    "alt": "Node js",
+    "description": "Plateforme côté serveur basée sur le moteur JavaScript V8 de Chrome, utilisée pour construire des applications réseau rapides."
+  },
+  {
     "name": "SEO",
     "image": "assets/imgs/s-skill/seo.png",
     "alt": "SEO",
     "description": "Techniques et stratégies pour améliorer la visibilité d'un site web dans les résultats des moteurs de recherche."
+  },
+  {
+    "name": "JSON",
+    "image": "assets/imgs/h-skill/json-file.png",
+    "alt": "JSON",
+    "description": "Format léger d'échange de données, facile à lire et à écrire pour les humains, et facile à analyser et à générer pour les machines."
+  },
+  {
+    "name": "Git",
+    "image": "assets/imgs/h-skill/git.png",
+    "alt": "Git",
+    "description": "Système de contrôle de version décentralisé pour gérer le code source des projets de développement logiciel."
   },
   {
     "name": "WCAG",
@@ -46,6 +59,12 @@
     "image": "assets/imgs/s-skill/karma.png",
     "alt": "Karma",
     "description": "Outil de test automatisé pour les applications JavaScript, facilitant les tests sur plusieurs navigateurs."
+  },
+  {
+    "name": "Excel",
+    "image": "assets/imgs/stack-icons/excel.png",
+    "alt": "Excel",
+    "description": "Application de feuille de calcul utilisée pour l'analyse, la manipulation et la visualisation des données."
   },
   {
     "name": "NPM",
