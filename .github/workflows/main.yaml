@@ -18,12 +18,12 @@ jobs:
           node-version: 18
 
       - name: Build Angular app to prod
-        working-directory: ./
+        working-directory: marquisSam.github.io
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages lawlz
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./dist/browser
+          folder: marquisSam.github.io/dist/browser
           branch: prod
           token: ${{ secrets.GH_TOKEN }}
