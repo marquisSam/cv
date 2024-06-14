@@ -5,7 +5,21 @@
   padding: var(--container-padding);
   padding-top: 30px;
 }
-
+h3 {
+  margin-bottom: 1.5rem;
+}
+h4 {
+  margin-bottom: 0.5rem;
+}
+.wrapper-project {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: var(--text-indent);
+  p {
+    padding-left: var(--text-indent);
+  }
+}
 @media (min-width: 768px) {
   :host {
     padding-top: var(--container-padding);
