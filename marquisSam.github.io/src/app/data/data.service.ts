@@ -10,7 +10,7 @@ import { CvSkill, CvWorkExperience } from './model';
 export class DataService {
   get getHardSkills(): Observable<CvSkill[]> {
     return this.http
-      .get<CvSkill[]>('./assets/data/_hardsSkill.json')
+      .get<CvSkill[]>('assets/data/hardsSkill.json')
       .pipe(filter((datas) => !!datas));
   }
   get getSoftSkills(): Observable<CvSkill[]> {
