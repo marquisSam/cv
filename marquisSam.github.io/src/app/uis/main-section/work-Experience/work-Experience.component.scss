@@ -106,3 +106,10 @@ section#references {
     margin-bottom: 0;
   }
 }
+
+//min widh tablet
+@media (min-width: 768px) {
+  .wrapper-experience {
+    margin-bottom: 0.2rem;
+  }
+}

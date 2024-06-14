@@ -5,7 +5,7 @@
 <section id="skills">
   <cv-skill-list
     title="Principales habiletés"
-    [list]="hardSkills"
+    [list]="(hardSkills | async) || []"
     [listStyle]="'icon'"
   ></cv-skill-list>
 </section>
@@ -13,7 +13,7 @@
 <section id="soft-skills">
   <cv-skill-list
     title="Connaissances additionnelles"
-    [list]="softSkills"
+    [list]="(softSkill | async) || []"
     [multiColumn]="true"
     [listStyle]="'icon'"
   ></cv-skill-list>
@@ -22,6 +22,13 @@
 <section id="transferable-asset">
   <cv-skill-list
     title="Atouts Transférables"
-    [list]="transferableAsset"
+    [list]="(transferableAsset | async) || []"
+  ></cv-skill-list>
+</section>
+
+<section id="would-learn-asset">
+  <cv-skill-list
+    title="Atouts Transférables"
+    [list]="(transferableAsset | async) || []"
   ></cv-skill-list>
 </section>

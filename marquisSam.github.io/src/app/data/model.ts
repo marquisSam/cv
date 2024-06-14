@@ -1,3 +1,4 @@
+// SKILLS
 export interface CvSkill {
   name: string;
   image?: string;
@@ -5,6 +6,7 @@ export interface CvSkill {
   description?: string;
 }
 
+//WORK EXPERIENCE
 export interface CvWorkExperience {
   title: string;
   company: string;

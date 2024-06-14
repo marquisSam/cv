@@ -4,7 +4,8 @@ import { PersonalIntroComponent } from './personal-intro/personal-intro.componen
 import { WorkExperienceComponent } from './work-Experience/work-Experience.component';
 import { Observable, of, startWith } from 'rxjs';
 import { workExperiences } from '../../../assets/data/work-exp';
-import { CvWorkExperience } from '../../model';
+import { CvWorkExperience } from '../../data/model';
+import { DataService } from '../../data/data.service';
 
 @Component({
   selector: 'cv-main-section',
@@ -15,7 +16,7 @@ import { CvWorkExperience } from '../../model';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainSectionComponent {
-  workExperiences$: Observable<CvWorkExperience[]> = of(workExperiences).pipe(
-    startWith([])
-  );
+  constructor(private dataService: DataService) {}
+  workExperiences$: Observable<CvWorkExperience[]> =
+    this.dataService.getWorkExperiences;
 }

@@ -4,6 +4,6 @@
 <hr />
 <section id="section-work-experience">
   <cv-work-experience
-    [workExperiences]="workExperiences$ | async"
+    [workExperiences]="(workExperiences$ | async) || []"
   ></cv-work-experience>
 </section>

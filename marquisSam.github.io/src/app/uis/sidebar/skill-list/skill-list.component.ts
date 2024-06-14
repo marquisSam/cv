@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CvSkill } from '../../../model';
+import { CvSkill } from '../../../data/model';
 
 export type ListStyle = 'icon' | 'basic';
 
