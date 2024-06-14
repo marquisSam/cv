@@ -1,4 +1,4 @@
-import { CvWorkExperience } from '../../app/model';
+import { CvWorkExperience } from '../../app/data/model';
 
 const bluerushExperience: CvWorkExperience = {
   title: 'Développeur Front-end',
