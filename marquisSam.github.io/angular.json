@@ -13,10 +13,19 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "cv",
+      "i18n": {
+        "sourceLocale": "fr-CA",
+        "locales": {
+          "en-CA": {
+            "translation": "src/locale/messages.en.xlfs"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/",
             "index": "src/index.html",
             "browser": "src/main.ts",

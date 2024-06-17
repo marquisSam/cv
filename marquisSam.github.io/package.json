@@ -5,9 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production --base-href marquissam.github.io",
+    "build:prod": "ng build --configuration=production --base-href marquissam.github.io --localize",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "extract-i18n": "ng extract-i18n --output-path src/locale"
   },
   "private": true,
   "dependencies": {
