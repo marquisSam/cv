@@ -37,6 +37,12 @@
     "description": "Système de contrôle de version décentralisé pour gérer le code source des projets de développement logiciel."
   },
   {
+    "name": "GitLab",
+    "image": "assets/imgs/stack-icons/gitlab.png",
+    "alt": "GitLab",
+    "description": "Plateforme de développement logiciel basée sur Git, offrant des fonctionnalités de gestion de projet, de CI/CD et de suivi des problèmes."
+  },
+  {
     "name": "WCAG",
     "image": "assets/imgs/s-skill/accessability.png",
     "alt": "WCAG",

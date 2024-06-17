@@ -12,6 +12,11 @@
     "alt": "MySQL"
   },
   {
+    "name": "Ruby on Rails",
+    "image": "assets/imgs/stack-icons/ruby.png",
+    "alt": "Ruby on Rails"
+  },
+  {
     "name": "NestJS",
     "image": "assets/imgs/stack-icons/nest.png",
     "alt": "nestjs",
