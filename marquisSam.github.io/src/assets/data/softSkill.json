@@ -13,6 +13,12 @@
     "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur interactives et dynamiques."
   },
   {
+    "name": "Angular Material",
+    "image": "assets/imgs/h-skill/Angular.png",
+    "alt": "Angular Material",
+    "description": "Bibliothèque de composants pour Angular, facilitant la création d'applications web modernes et réactives."
+  },
+  {
     "name": "Node.js",
     "image": "assets/imgs/h-skill/node-js.png",
     "alt": "Node js",
