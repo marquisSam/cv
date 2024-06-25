@@ -16,8 +16,8 @@
       "i18n": {
         "sourceLocale": "fr-CA",
         "locales": {
-          "en-CA": {
-            "translation": "src/locale/messages.en.xlfs"
+          "en": {
+            "translation": "src/locale/messages.en.xlf"
           }
         }
       },
@@ -63,6 +63,12 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "fr-CA": {
+              "localize": ["fr-CA"]
+            },
+            "en": {
+              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -75,8 +81,15 @@
             },
             "development": {
               "buildTarget": "marquisSam.github.io:build:development"
+            },
+            "fr-CA": {
+              "buildTarget": "marquisSam.github.io:build:development,fr-CA"
+            },
+            "en": {
+              "buildTarget": "marquisSam.github.io:build:development,en"
             }
           },
+
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
