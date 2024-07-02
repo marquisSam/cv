@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-CA" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="662609661417030904" datatype="html">
+        <source>Web Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/uis/sidebar/quick-info/quick-info.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <note priority="1" from="description">The job title</note>
+        <note priority="1" from="meaning">site header</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

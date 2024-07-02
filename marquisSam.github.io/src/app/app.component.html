@@ -1,1 +1,11 @@
+couocu
+<div class="lang-picker">
+  @for (locale of locales; track locale) {
+  <div>
+    <a href="/{{ locale.localeCode }}/">
+      {{ locale.label + " test 3" }}
+    </a>
+  </div>
+  }
+</div>
 <cv-main-template></cv-main-template>

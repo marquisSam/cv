@@ -13,10 +13,19 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "cv",
+      "i18n": {
+        "sourceLocale": "fr-CA",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.en.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -54,6 +63,12 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "fr-CA": {
+              "localize": ["fr-CA"]
+            },
+            "en": {
+              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -66,8 +81,15 @@
             },
             "development": {
               "buildTarget": "marquisSam.github.io:build:development"
+            },
+            "fr-CA": {
+              "buildTarget": "marquisSam.github.io:build:production,fr-CA"
+            },
+            "en": {
+              "buildTarget": "marquisSam.github.io:build:production,en"
             }
           },
+
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
