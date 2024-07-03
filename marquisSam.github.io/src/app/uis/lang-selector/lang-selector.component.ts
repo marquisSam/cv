@@ -22,20 +22,12 @@ import { concatMap, map } from 'rxjs/operators';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LangSelectorComponent implements OnInit {
-  destroyRef = inject(DestroyRef);
-
-  routerParams$: Observable<Params> = this.route.queryParams.pipe(
-    concatMap((params) => timer(100).pipe(map(() => params))),
-    takeUntilDestroyed(this.destroyRef)
-  );
-
   constructor(
     private translate: TranslateService,
     private location: Location,
     private route: ActivatedRoute,
     private cdr: ChangeDetectorRef
   ) {}
-  lang = 'en';
 
   ngOnInit(): void {
     const browserLang = navigator.language.toLocaleLowerCase();
@@ -45,11 +37,16 @@ export class LangSelectorComponent implements OnInit {
     this.routerParams$.subscribe(this.#routerMethod);
   }
 
+  routerParams$: Observable<Params> = this.route.queryParams.pipe(
+    concatMap((params) => timer(100).pipe(map(() => params))),
+    takeUntilDestroyed(inject(DestroyRef))
+  );
+
+  lang = 'en';
+
   updateLang(lang: string): void {
-    console.log('lang', lang);
     this.location.replaceState('/', 'lang=' + lang);
     this.translate.use(lang);
-    this.translate.resetLang(lang);
   }
 
   #routerMethod = (params: Params): void => {
@@ -65,19 +62,21 @@ export class LangSelectorComponent implements OnInit {
   };
 
   #selectLang(lang: string, setDefaultLang = false): void {
-    if (lang.match(/en/)) {
-      console.log(' match en');
-      this.lang = 'en';
-      setDefaultLang
-        ? this.translate.setDefaultLang('en')
-        : this.translate.use('en');
-    } else {
-      console.log(' match fr');
-      this.lang = 'fr';
-      setDefaultLang
-        ? this.translate.setDefaultLang('fr')
-        : this.translate.use('fr');
+    switch (true) {
+      case /en/.test(lang):
+        this.lang = 'en';
+        setDefaultLang
+          ? this.translate.setDefaultLang('en')
+          : this.translate.use('en');
+        break;
+
+      default:
+        this.lang = 'fr';
+        setDefaultLang
+          ? this.translate.setDefaultLang('fr')
+          : this.translate.use('fr');
     }
+
     this.cdr.detectChanges();
   }
 }
