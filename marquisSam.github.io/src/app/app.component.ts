@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MainTemplateComponent } from './templates/main-template/main-template.component';
+import { TranslateModule } from '@ngx-translate/core';
 interface Locale {
   localeCode: string;
   label: string;
