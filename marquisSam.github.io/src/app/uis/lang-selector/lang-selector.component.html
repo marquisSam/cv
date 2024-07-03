@@ -1,5 +1,10 @@
 <label for="lang">Choisir un language</label>
-<select name="lang" id="lang">
+<select
+  name="lang"
+  id="lang"
+  [(ngModel)]="lang"
+  (ngModelChange)="updateLang($event)"
+>
   <option value="fr">Français</option>
   <option value="en">English</option>
 </select>
