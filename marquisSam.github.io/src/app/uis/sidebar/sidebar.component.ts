@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { QuickInfoComponent } from './quick-info/quick-info.component';
@@ -10,7 +11,12 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'cv-sidebar',
   standalone: true,
-  imports: [CommonModule, QuickInfoComponent, SkillListComponent],
+  imports: [
+    CommonModule,
+    QuickInfoComponent,
+    SkillListComponent,
+    TranslateModule,
+  ],
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

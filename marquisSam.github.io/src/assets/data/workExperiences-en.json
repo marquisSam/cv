@@ -1,6 +1,6 @@
 [
   {
-    "title": "Développeur Front-end",
+    "title": "Front-end Developer",
     "company": "Regisco",
     "location": "Montreal, QC",
     "startDate": "2023-08-01",
@@ -8,7 +8,7 @@
     "references": [
       {
         "name": "Philippe Desormeaux",
-        "function": "Cofondateur et Product Owner",
+        "function": "Co-founder and Product Owner",
         "email": "philippe@regisco.ca",
         "phone": "418-264-1676"
       },
@@ -20,21 +20,21 @@
       }
     ],
     "responsibilities": [
-      "Maintenir la plateforme de la société.",
-      "Développer des fonctionnalités pour la plateforme.",
-      "Réaliser des tâches complexes dans des temps limités.",
-      "Rester disponible pour régler rapidement les problème en production.",
-      "Investiguer et corriger les bugs."
+      "Maintain the company's platform.",
+      "Develop features for the platform.",
+      "Perform complex tasks within limited time frames.",
+      "Be available to quickly resolve production issues.",
+      "Investigate and fix bugs."
     ],
     "achievements": [
-      "Intégrer un design complexe de A à Z.",
-      "Créer une librairie de Inputs personnalisées.",
-      "Créer une librairie de composants personnalisées."
+      "Integrate a complex design from start to finish.",
+      "Create a custom Inputs library.",
+      "Create a custom components library."
     ],
     "demo": []
   },
   {
-    "title": "Développeur Front-end",
+    "title": "Front-end Developer",
     "company": "Bluerush",
     "location": "Montreal, QC",
     "startDate": "2016-01-01",
@@ -48,29 +48,29 @@
       }
     ],
     "responsibilities": [
-      "Analyser les designs et les devis afin de rendre avec exactitude les projets et les applications web.",
-      "Analyser le fonctionnement des équations de calculateur bancaire afin de les reproduire en JavaScript.",
-      "M'assurer du bon fonctionnement des projets et applications. Remplir des tickets dans Jira au besoin.",
-      "Participer à des réunions 'scrum' sur une base journalière afin d'informer le reste de l'équipe des derniers développements.",
-      "Faire des séances de révisions de code avec mes collègues.",
-      "Maintenir un produit à jour.",
-      "Participer à des appels client afin d'appuyer le gestionnaire de projet sur des formalités techniques.",
-      "Réaliser des tâches complexes dans des temps limités."
+      "Analyze designs and specifications to accurately deliver web projects and applications.",
+      "Analyze the functioning of banking calculator equations to reproduce them in JavaScript.",
+      "Ensure the proper functioning of projects and applications. Fill Jira tickets as needed.",
+      "Participate in daily 'scrum' meetings to inform the team of the latest developments.",
+      "Conduct code review sessions with colleagues.",
+      "Keep a product up to date.",
+      "Participate in client calls to support the project manager with technical formalities.",
+      "Perform complex tasks within limited time frames."
     ],
     "achievements": [
-      "Collaboration à la conception d'un produit vidéo personnalisé, incluant une extension After-effects pour créer des vidéos modulaires avec des données personnalisées.",
-      "Réalisation d'une page qui iframe les vidéos du produit, avec redimensionnement dynamique selon le viewport de l'utilisateur.",
-      "Développement d'une page de test pour le produit de vidéo personnalisé sur Angular, intégrant des fonctionnalités avancées et communication avec un API."
+      "Collaborated on the design of a personalized video product, including an After-effects extension to create modular videos with personalized data.",
+      "Created a page that iframes product videos with dynamic resizing based on the user's viewport.",
+      "Developed a test page for the personalized video product on Angular, incorporating advanced features and API communication."
     ],
     "demo": [
       {
-        "title": "Page Iframe video personnalisée",
-        "linkLabel": "Voir la page",
+        "title": "Personalized video iframe page",
+        "linkLabel": "View page",
         "link": "https://individeo.com/individeo/preview/vfSfdYQSRGRMVRXmmw-651/?lang=fr-CA&ivuci=25"
       },
       {
-        "title": "Page test pour le produit de vidéo personnalisé.",
-        "linkLabel": "Voir la page",
+        "title": "Test page for the personalized video product.",
+        "linkLabel": "View page",
         "link": "https://support.bluerush.com/academy/how-can-i-test-my-video-1"
       }
     ]

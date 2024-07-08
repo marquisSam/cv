@@ -1,3 +1,8 @@
 {
-  "jobTitle": "Développeur Web"
+  "jobTitle": "Développeur Web",
+  "hardSkill": "Principales habiletés",
+
+  "softSkill": "Connaissances Additionnelles",
+  "wouldLearn": "J'aimerais Apprendre",
+  "transferableAsset": "Atouts Transférables"
 }

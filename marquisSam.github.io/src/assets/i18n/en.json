@@ -1,3 +1,8 @@
 {
-  "jobTitle": "Web Developer"
+  "jobTitle": "Web Developer",
+  "hardSkill": "Hard Skills",
+
+  "softSkill": "Additional Skills",
+  "wouldLearn": "Would like to Learn",
+  "transferableAsset": "Transferable Assets"
 }
