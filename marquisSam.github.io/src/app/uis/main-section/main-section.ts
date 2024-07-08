@@ -1,11 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { DataService } from '../../data/data.service';
+import { CvWorkExperience } from '../../data/model';
 import { PersonalIntroComponent } from './personal-intro/personal-intro.component';
 import { WorkExperienceComponent } from './work-Experience/work-Experience.component';
-import { Observable, of, startWith } from 'rxjs';
-import { workExperiences } from '../../../assets/data/work-exp-fr';
-import { CvWorkExperience } from '../../data/model';
-import { DataService } from '../../data/data.service';
 
 @Component({
   selector: 'cv-main-section',
