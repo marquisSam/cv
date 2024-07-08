@@ -16,11 +16,11 @@ import { Observable } from 'rxjs';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SidebarComponent {
-  constructor(private dataService: DataService) {}
+  constructor(public dataService: DataService) {}
 
-  hardSkills: Observable<CvSkill[]> = this.dataService.getHardSkills;
-  softSkill: Observable<CvSkill[]> = this.dataService.getSoftSkills;
-  transferableAsset: Observable<CvSkill[]> =
-    this.dataService.getTransferableAssets;
-  wouldLearn: Observable<CvSkill[]> = this.dataService.getWouldLearn;
+  // hardSkills: Observable<CvSkill[]> = this.dataService.getHardSkills;
+  // softSkill: Observable<CvSkill[]> = this.dataService.getSoftSkills;
+  // transferableAsset: Observable<CvSkill[]> =
+  //   this.dataService.getTransferableAssets;
+  // wouldLearn: Observable<CvSkill[]> = this.dataService.getWouldLearn;
 }

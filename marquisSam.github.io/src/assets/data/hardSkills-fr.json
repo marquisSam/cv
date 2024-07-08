@@ -24,13 +24,13 @@
     "description": "Framework structuré pour les applications web dynamiques, permettant de créer des interfaces utilisateur riches et interactives."
   },
   {
-    "name": "Web Applications",
+    "name": "Applications Web",
     "image": "assets/imgs/h-skill/webapp.png",
-    "alt": "Web Applications",
+    "alt": "Applications Web",
     "description": "Applications exécutées sur un serveur web, accessibles via un réseau comme Internet ou une intranet."
   },
   {
-    "name": "Responsive Design",
+    "name": "Design Adaptatif",
     "image": "assets/imgs/h-skill/responsive-design.png",
     "alt": "Responsive",
     "description": "Approche de conception web qui vise à créer des sites offrant une expérience de visualisation optimale sur une large gamme d'appareils."

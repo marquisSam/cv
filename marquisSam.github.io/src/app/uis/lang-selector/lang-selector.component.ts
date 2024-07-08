@@ -13,6 +13,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable, timer } from 'rxjs';
 import { concatMap, map } from 'rxjs/operators';
+import { LangService } from '../../data/lang.service';
 @Component({
   selector: 'cv-lang-selector',
   standalone: true,
@@ -26,7 +27,8 @@ export class LangSelectorComponent implements OnInit {
     private translate: TranslateService,
     private location: Location,
     private route: ActivatedRoute,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    private langService: LangService
   ) {}
 
   ngOnInit(): void {
@@ -46,17 +48,15 @@ export class LangSelectorComponent implements OnInit {
 
   updateLang(lang: string): void {
     this.location.replaceState('/', 'lang=' + lang);
-    this.translate.use(lang);
+    this.langService.setCurrentLanguage(lang);
   }
 
   #routerMethod = (params: Params): void => {
     const lang = params['lang'];
-    console.log('langette', lang);
     if (lang) {
       this.#selectLang(lang as string);
     } else {
       const browserLang = navigator.language.toLocaleLowerCase();
-      console.log('browserLang', browserLang);
       this.#selectLang(browserLang);
     }
   };

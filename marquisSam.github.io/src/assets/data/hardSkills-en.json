@@ -1,0 +1,38 @@
+[
+  {
+    "name": "JavaScript, Typescript",
+    "image": "assets/imgs/h-skill/js.png",
+    "alt": "JavaScript, Typescript",
+    "description": "Essential programming languages for web development and creating interactive applications."
+  },
+  {
+    "name": "Css, Scss",
+    "image": "assets/imgs/h-skill/css-3.png",
+    "alt": "Css, Scss",
+    "description": "Style technologies for designing and formatting web pages, enabling adaptive and dynamic designs."
+  },
+  {
+    "name": "Html",
+    "image": "assets/imgs/h-skill/html-5-logotype.png",
+    "alt": "Html",
+    "description": "Standard markup language used to create and structure web pages."
+  },
+  {
+    "name": "Angular (v.18)",
+    "image": "assets/imgs/h-skill/Angular.png",
+    "alt": "Angular",
+    "description": "Structured framework for dynamic web applications, enabling the creation of rich and interactive user interfaces."
+  },
+  {
+    "name": "Web Applications",
+    "image": "assets/imgs/h-skill/webapp.png",
+    "alt": "Web Applications",
+    "description": "Applications executed on a web server, accessible via a network like the Internet or an intranet."
+  },
+  {
+    "name": "Responsive Design",
+    "image": "assets/imgs/h-skill/responsive-design.png",
+    "alt": "Responsive",
+    "description": "Web design approach that aims to create sites offering an optimal viewing experience on a wide range of devices."
+  }
+]
