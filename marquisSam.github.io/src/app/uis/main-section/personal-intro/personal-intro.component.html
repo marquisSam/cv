@@ -1,23 +1,9 @@
 <section id="personal-intro">
-  <h3>INTRODUCTION PERSONNELLE</h3>
-  <div [innerHTML]="'personalIntroBody' | translate"></div>
+  <h3>{{ "personalIntroTitle" | translate }}</h3>
+  <p [innerHTML]="'personalIntroBody' | translate | safeHtml"></p>
 </section>
 
 <section id="career-objectives">
-  <h3>OBJECTIFS DE CARRIÈRE</h3>
-  <p>
-    J'aspire à m'investir dans le développement d'applications intéressantes.
-    J'aime la résolution de problème et la recherche nécessaire pour surmonter
-    les difficultés que présentent la programmation et le développement.
-  </p>
-
-  <p>
-    Je souhaite aussi travailler dans un environnement ou l'apprentissage, le
-    perfectionnement et le partage des connaissances sont des valeurs
-    importantes.
-  </p>
-
-  <p>
-    De plus, je suis motivé à prendre des responsabilités au sein d'une équipe.
-  </p>
+  <h3>{{ "careerObjectivesTitle" | translate }}</h3>
+  <p [innerHTML]="'careerObjectivesBody' | translate | safeHtml"></p>
 </section>

@@ -5,11 +5,17 @@ import { DataService } from '../../data/data.service';
 import { CvWorkExperience } from '../../data/model';
 import { PersonalIntroComponent } from './personal-intro/personal-intro.component';
 import { WorkExperienceComponent } from './work-Experience/work-Experience.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'cv-main-section',
   standalone: true,
-  imports: [CommonModule, PersonalIntroComponent, WorkExperienceComponent],
+  imports: [
+    CommonModule,
+    PersonalIntroComponent,
+    WorkExperienceComponent,
+    TranslateModule,
+  ],
   templateUrl: './main-section.html',
   styleUrl: './main-section.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
