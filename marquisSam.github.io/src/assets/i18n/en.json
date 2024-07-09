@@ -4,5 +4,7 @@
 
   "softSkill": "Additional Skills",
   "wouldLearn": "Would like to Learn",
-  "transferableAsset": "Transferable Assets"
+  "transferableAsset": "Transferable Assets",
+
+  "personalIntroBody": "<p>I started at the bottom of the ladder with Bluerush in 2016, tasked with entering content on static websites. Initially, I self-taught myself the basics of HTML, CSS, and JS. Later, I received support from an exceptional senior team.</p><p>Recognizing my eagerness to learn, I was entrusted with increasingly complex projects. This allowed me to apply best practices in development and programming.</p><p>I also have strong customer service skills and enjoy working in a team. I consider myself versatile and take pleasure in learning new approaches.</p>"
 }
