@@ -29,3 +29,8 @@ export interface CvReference {
   email: string;
   phone: string;
 }
+
+export enum SupportedLanguage {
+  EN = 'en',
+  FR = 'fr',
+}

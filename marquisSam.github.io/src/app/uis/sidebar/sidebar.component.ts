@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { QuickInfoComponent } from './quick-info/quick-info.component';
 import { SkillListComponent } from './skill-list/skill-list.component';
-import { CvSkill } from '../../data/model';
+import { CvSkill } from '../../services/model';
 import { HttpClient } from '@angular/common/http';
-import { DataService } from '../../data/data.service';
+import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 
 @Component({

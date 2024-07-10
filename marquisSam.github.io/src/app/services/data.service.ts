@@ -12,8 +12,8 @@ import {
   switchMap,
   take,
 } from 'rxjs';
-import { LangService, Language } from './lang.service';
-import { CvSkill, CvWorkExperience } from './model';
+import { LangService } from './lang.service';
+import { CvSkill, CvWorkExperience, SupportedLanguage } from './model';
 
 export enum dataSetKeys {
   hardSkills = 'hardSkills',
@@ -22,10 +22,12 @@ export enum dataSetKeys {
   wouldLearn = 'wouldLearn',
   workExperiences = 'workExperiences',
 }
+
 export type datasByLanguage = {
-  [Language.EN]: datas;
-  [Language.FR]: datas;
+  [SupportedLanguage.EN]: datas;
+  [SupportedLanguage.FR]: datas;
 };
+
 export interface datas {
   hardSkills: CvSkill[];
   softSkills: CvSkill[];
@@ -33,9 +35,10 @@ export interface datas {
   wouldLearn: CvSkill[];
   workExperiences: CvWorkExperience[];
 }
+
 export interface ReducerData {
   data: CvSkill[] | CvWorkExperience[];
-  lang: Language;
+  lang: SupportedLanguage;
   datasetKey: dataSetKeys;
 }
 
@@ -59,8 +62,8 @@ export class DataService {
 
   #dataStore$: BehaviorSubject<datasByLanguage> =
     new BehaviorSubject<datasByLanguage>({
-      [Language.EN]: this.#getDefaultData(),
-      [Language.FR]: this.#getDefaultData(),
+      [SupportedLanguage.EN]: this.#getDefaultData(),
+      [SupportedLanguage.FR]: this.#getDefaultData(),
     });
 
   #dataSelector$: Observable<datas> = combineLatest([
@@ -97,13 +100,13 @@ export class DataService {
     defaultIfEmpty([])
   );
 
-  #getData = (lang: Language): void => {
+  #getData = (lang: SupportedLanguage): void => {
     Object.keys(dataSetKeys).forEach((key) => {
       this.#fetchDataForLang(lang, key as dataSetKeys);
     });
   };
 
-  #fetchDataForLang(lang: Language, datasetKey: dataSetKeys): void {
+  #fetchDataForLang(lang: SupportedLanguage, datasetKey: dataSetKeys): void {
     if (this.#dataStore$.value[lang]?.[datasetKey].length) return;
 
     this.http

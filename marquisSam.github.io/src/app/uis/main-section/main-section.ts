@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { DataService } from '../../data/data.service';
-import { CvWorkExperience } from '../../data/model';
+import { DataService } from '../../services/data.service';
+import { CvWorkExperience } from '../../services/model';
 import { PersonalIntroComponent } from './personal-intro/personal-intro.component';
 import { WorkExperienceComponent } from './work-Experience/work-Experience.component';
 import { TranslateModule } from '@ngx-translate/core';
