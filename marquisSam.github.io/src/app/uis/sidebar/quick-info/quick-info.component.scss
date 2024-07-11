@@ -77,4 +77,8 @@ ul {
   :host {
     justify-content: space-around;
   }
+  .title-wrapper {
+    display: flex;
+    gap: 10px;
+  }
 }
