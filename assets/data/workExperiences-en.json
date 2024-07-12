@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Front-end Developer",
+    "company": "Regisco",
+    "location": "Montreal, QC",
+    "startDate": "2023-08-01",
+    "endDate": "2024-02-29",
+    "references": [
+      {
+        "name": "Philippe Desormeaux",
+        "function": "Co-founder and Product Owner",
+        "email": "philippe@regisco.ca",
+        "phone": "418-264-1676"
+      },
+      {
+        "name": "Jean-Philippe Lemieux",
+        "function": "CTO",
+        "email": "jp@xtenc.io",
+        "phone": "514-952-8485"
+      }
+    ],
+    "responsibilities": [
+      "Maintain the company's platform.",
+      "Develop features for the platform.",
+      "Perform complex tasks within limited time frames.",
+      "Be available to quickly resolve production issues.",
+      "Investigate and fix bugs."
+    ],
+    "achievements": [
+      "Integrate a complex design from start to finish.",
+      "Create a custom Inputs library.",
+      "Create a custom components library."
+    ],
+    "demo": []
+  },
+  {
+    "title": "Front-end Developer",
+    "company": "Bluerush",
+    "location": "Montreal, QC",
+    "startDate": "2016-01-01",
+    "endDate": "2022-12-31",
+    "references": [
+      {
+        "name": "Richard Pineault",
+        "function": "CTO",
+        "email": "",
+        "phone": "514-813-0866"
+      }
+    ],
+    "responsibilities": [
+      "Analyze designs and specifications to accurately deliver web projects and applications.",
+      "Analyze the functioning of banking calculator equations to reproduce them in JavaScript.",
+      "Ensure the proper functioning of projects and applications. Fill Jira tickets as needed.",
+      "Participate in daily 'scrum' meetings to inform the team of the latest developments.",
+      "Conduct code review sessions with colleagues.",
+      "Keep a product up to date.",
+      "Participate in client calls to support the project manager with technical formalities.",
+      "Perform complex tasks within limited time frames."
+    ],
+    "achievements": [
+      "Collaborated on the design of a personalized video product, including an After-effects extension to create modular videos with personalized data.",
+      "Created a page that iframes product videos with dynamic resizing based on the user's viewport.",
+      "Developed a test page for the personalized video product on Angular, incorporating advanced features and API communication."
+    ],
+    "demo": [
+      {
+        "title": "Personalized video iframe page",
+        "linkLabel": "View page",
+        "link": "https://individeo.com/individeo/preview/vfSfdYQSRGRMVRXmmw-651/?lang=fr-CA&ivuci=25"
+      },
+      {
+        "title": "Test page for the personalized video product.",
+        "linkLabel": "View page",
+        "link": "https://support.bluerush.com/academy/how-can-i-test-my-video-1"
+      }
+    ]
+  }
+]

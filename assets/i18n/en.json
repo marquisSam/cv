@@ -1,0 +1,26 @@
+{
+  "jobTitle": "Web Developer",
+  "hardSkill": "Hard Skills",
+
+  "softSkill": "Additional Skills",
+  "wouldLearn": "Would like to Learn",
+  "transferableAsset": "Transferable Assets",
+
+  "personalIntroTitle": "Personal Introduction",
+  "personalIntroBody": "I started at the bottom of the ladder with Bluerush in 2016, tasked with entering content on static websites. Initially, I self-taught myself the basics of HTML, CSS, and JS. Later, I received support from an exceptional senior team.\n\nRecognizing my eagerness to learn, I was entrusted with increasingly complex projects. This allowed me to apply best practices in development and programming.\n\n I also have strong customer service skills and enjoy working in a team. I consider myself versatile and take pleasure in learning new approaches.",
+
+  "careerObjectivesTitle": "Career Objectives",
+  "careerObjectivesBody": "I aspire to engage in the development of interesting applications. I enjoy problem-solving and the research required to overcome the challenges presented by programming and development. I also wish to work in an environment where learning, improvement, and knowledge sharing are important values. Additionally, I am motivated to take on responsibilities within a team.",
+
+  "professionalExperience": "Professional Experience",
+
+  "project": {
+    "personalProjectsTitle": "Personal Projects",
+    "cvProject": {
+      "cvProjectTitle": "CV Project",
+      "cvProjectDescription": "This CV is a web page made with Angular and hosted on Github.",
+      "cvProjectVisit": "You can visit it at",
+      "cvProjectCode": "Or check out the code for yourself on"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Vue.js",
+    "image": "assets/imgs/stack-icons/Vue.png",
+    "alt": "Vue.js",
+    "description": "Vue.js is a JavaScript framework for building user interfaces. It is a progressive framework that can be used to build single-page applications and user interfaces. Vue.js is a popular framework that is used by many developers to build web applications. Vue.js is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications. Vue.js is a great choice for building web applications because it is easy to learn and use, and it is a great choice for building web applications."
+  },
+
+  {
+    "name": "MySQL",
+    "image": "assets/imgs/stack-icons/mysql.png",
+    "alt": "MySQL"
+  },
+  {
+    "name": "Ruby on Rails",
+    "image": "assets/imgs/stack-icons/ruby.png",
+    "alt": "Ruby on Rails"
+  },
+  {
+    "name": "NestJS",
+    "image": "assets/imgs/stack-icons/nest.png",
+    "alt": "nestjs",
+    "description": "NestJS est un framework Node.js progressif pour construire des applications efficaces et évolutives sur le serveur. Il utilise des concepts modernes de programmation orientée objet, entièrement compatible avec TypeScript et bénéficie d'une architecture modulaire."
+  },
+  {
+    "name": "Rest api",
+    "image": "assets/imgs/s-skill/api.png",
+    "alt": "Rest",
+    "description": "Protocole standard pour la conception d'interfaces de programmation d'applications web."
+  }
+]
