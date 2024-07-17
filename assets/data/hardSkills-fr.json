@@ -1,37 +1,37 @@
 [
   {
     "name": "JavaScript, Typescript",
-    "image": "assets/imgs/h-skill/js.png",
+    "image": "assets/imgs/stack-icons/js.png",
     "alt": "JavaScript, Typescript",
     "description": "Langages de programmation essentiels pour le développement web et la création d'applications interactives."
   },
   {
     "name": "Css, Scss",
-    "image": "assets/imgs/h-skill/css-3.png",
+    "image": "assets/imgs/stack-icons/css-3.png",
     "alt": "Css, Scss",
     "description": "Technologies de style pour le design et la mise en forme des pages web, permettant des designs adaptatifs et dynamiques."
   },
   {
     "name": "Html",
-    "image": "assets/imgs/h-skill/html-5-logotype.png",
+    "image": "assets/imgs/stack-icons/html-5-logotype.png",
     "alt": "Html",
     "description": "Langage de balisage standard utilisé pour créer et structurer des pages web."
   },
   {
     "name": "Angular (v.18)",
-    "image": "assets/imgs/h-skill/Angular.png",
+    "image": "assets/imgs/stack-icons/Angular.png",
     "alt": "Angular",
     "description": "Framework structuré pour les applications web dynamiques, permettant de créer des interfaces utilisateur riches et interactives."
   },
   {
     "name": "Applications Web",
-    "image": "assets/imgs/h-skill/webapp.png",
+    "image": "assets/imgs/stack-icons/webapp.png",
     "alt": "Applications Web",
     "description": "Applications exécutées sur un serveur web, accessibles via un réseau comme Internet ou une intranet."
   },
   {
     "name": "Design Adaptatif",
-    "image": "assets/imgs/h-skill/responsive-design.png",
+    "image": "assets/imgs/stack-icons/responsive-design.png",
     "alt": "Responsive",
     "description": "Approche de conception web qui vise à créer des sites offrant une expérience de visualisation optimale sur une large gamme d'appareils."
   }

@@ -24,7 +24,7 @@
   },
   {
     "name": "Rest api",
-    "image": "assets/imgs/s-skill/api.png",
+    "image": "assets/imgs/stack-icons/api.png",
     "alt": "Rest",
     "description": "Protocole standard pour la conception d'interfaces de programmation d'applications web."
   }
