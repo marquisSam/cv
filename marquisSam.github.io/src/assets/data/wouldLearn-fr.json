@@ -27,5 +27,17 @@
     "image": "assets/imgs/stack-icons/api.png",
     "alt": "Rest",
     "description": "Protocole standard pour la conception d'interfaces de programmation d'applications web."
+  },
+  {
+    "name": ".NET",
+    "image": "assets/imgs/stack-icons/dot-net.svg",
+    "alt": "Rest",
+    "description": "La technologie .NET est puissante et polyvalente, permettant aux développeurs de créer des applications robustes et évolutives pour diverses plateformes et cas d'utilisation."
+  },
+  {
+    "name": "C#",
+    "image": "assets/imgs/stack-icons/c_sharp.png",
+    "alt": "Rest",
+    "description": "C# est un langage de programmation moderne et orienté objet développé par Microsoft pour créer une large gamme d'applications fonctionnant sur le framework .NET"
   }
 ]
